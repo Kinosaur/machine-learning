@@ -43,5 +43,4 @@ Each folder is named by week (`week1`, `week2`, etc.) and contains:
 You can start from any week — just clone the repo and explore!
 
 ```bash
-git clone [https://github.com/your-username/ml-weekly-journey.git
-cd ml-weekly-journey](https://github.com/Kinosaur/machine-learning.git)
+git clone https://github.com/Kinosaur/machine-learning.git

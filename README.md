@@ -15,6 +15,8 @@ Each week contains:
 
 🔄 Updated weekly — follow along or use this as inspiration for your own learning path!
 
+#### ✌️ Don't Forget to star this repo and give a follow!
+
 ---
 
 ## 📚 Resources I Often Use

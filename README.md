@@ -19,7 +19,7 @@ Each week contains:
 
 ## 📚 Resources I Often Use
 
-- [🧠 CS229 - Stanford ML](https://cs229.stanford.edu/)
+- [🧠 CS229 - Stanford ML](https://see.stanford.edu/course/cs229)
 - [Youtube](https://www.youtube.com/)
 - [Kaggle Learn](https://www.kaggle.com/learn)
 - From My Lecturer

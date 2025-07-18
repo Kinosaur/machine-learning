@@ -9,7 +9,7 @@ POPULATION_SIZE = 5  # Number of chromosomes in population
 GENES_PER_CHROMOSOME = 4  # Number of genes per chromosome
 GENE_MIN = 1  # Minimum gene value
 GENE_MAX = 30  # Maximum gene value
-MUTATION_RATE = 0.1  # Probability of mutation per chromosome
+MUTATION_RATE = 0.2  # Probability of mutation per chromosome
 
 
 # Fitness function: lower is better, 0 means solution found
@@ -113,7 +113,7 @@ def genetic_algorithm():
         # Stopping condition: solution found
         if solution_index is not None:
             print(
-                f"\n>> ✅ Solution found in Chromosome C{solution_index+1}: {population[solution_index]}"
+                f"\n>> Solution found in Chromosome C{solution_index+1}: {population[solution_index]}"
             )
             print(
                 "No more Crossover is needed due to the best fitness value (0) and fitnessRate(100%)"
@@ -123,7 +123,7 @@ def genetic_algorithm():
         # Stagnation: all chromosomes have same fitness
         if len(set(fitnesses)) == 1:
             print(
-                "\n⚠️ All chromosomes have the same fitness. Applying mutation to escape local stagnation..."
+                "\n>> All chromosomes have the same fitness. Applying mutation to escape local stagnation..."
             )
             population = [force_mutate(ch) for ch in population]
             generation += 1

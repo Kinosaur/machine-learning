@@ -9,7 +9,7 @@ POPULATION_SIZE = 5  # Number of chromosomes in population
 GENES_PER_CHROMOSOME = 4  # Number of genes per chromosome
 GENE_MIN = 1  # Minimum gene value
 GENE_MAX = 30  # Maximum gene value
-MUTATION_RATE = 0.2  # Probability of mutation per chromosome
+MUTATION_RATE = 0.1  # Probability of mutation per chromosome
 
 
 # Fitness function: lower is better, 0 means solution found
@@ -40,7 +40,7 @@ def roulette_wheel_selection(population, fitness_rates):
 # Single-point crossover: combine genes from two parents
 def crossover(parent1, parent2):
     point = random.randint(1, GENES_PER_CHROMOSOME - 1)
-    print(f"\nCrossover point = {point}")
+    # print(f"\nCrossover point = {point}")
     child1 = parent1[:point] + parent2[point:]
     child2 = parent2[:point] + parent1[point:]
     return child1, child2
@@ -153,20 +153,20 @@ def genetic_algorithm():
         generation += 1
 
         # User interaction for next step
-        try:
-            cont = input(
-                "\nEnter 1 for next Cross-over/Fitness values, 2 to restart Initial Population, or any Integer to Exit: "
-            )
-        except EOFError:
-            print("Exiting program.")
-            break
+        # try:
+        #     cont = input(
+        #         "\nEnter 1 for next Cross-over/Fitness values, 2 to restart Initial Population, or any Integer to Exit: "
+        #     )
+        # except EOFError:
+        #     print("Exiting program.")
+        #     break
 
-        if cont == "2":
-            population = generate_initial_population()
-            generation = 1
-        elif cont != "1":
-            print("Exiting program.")
-            break
+        # if cont == "2":
+        #     population = generate_initial_population()
+        #     generation = 1
+        # elif cont != "1":
+        #     print("Exiting program.")
+        #     break
 
 
 if __name__ == "__main__":

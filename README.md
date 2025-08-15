@@ -9,7 +9,7 @@ Each week, I document what I’ve learned in the field of Machine Learning — f
 
 Each week contains:
 - ✅ **Topics covered**
-- 📚 **Resources used
+- 📚 **Resources used**
 - 🧪 **Experiments or mini-projects**
 - 💡 **Key learnings or insights**
 
@@ -21,7 +21,6 @@ Each week contains:
 
 ## 📚 Resources I Often Use
 
-- [🧠 CS229 - Stanford ML](https://see.stanford.edu/course/cs229)
 - [Youtube](https://www.youtube.com/)
 - [Kaggle Learn](https://www.kaggle.com/learn)
 - From My Lecturer
@@ -37,10 +36,9 @@ Each week contains:
 
 ## 🚀 How to Use This Repo
 
-Each folder is named by week (`week1`, `week2`, etc.) and contains:
-- A markdown summary
-- Jupyter notebooks or scripts (if any)
-- Links to external resources
+Each folder is named by week (`week1`, `week2`, etc.) and use `slides` folder for my lecture slides.
+Please consider this is my studying and should not use for copy-paste things for my junior fellows.
+Even though this is free resoures should not use for paid teaching purpose.
 
 You can start from any week — just clone the repo and explore!
 

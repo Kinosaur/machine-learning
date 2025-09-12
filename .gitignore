@@ -4,3 +4,5 @@
 .vscode
 week7/fruit_cnn/dataset.zip
 week7/vehicle_cnn/dataset.zip
+/week7/fruit_cnn/dataset
+/week7/vehicle_cnn/dataset
